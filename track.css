@@ -257,3 +257,15 @@ span {
   border-color: #101070;
   color: white;
 }
+
+.return{
+   min-width: 21.5vw;
+	min-height: 3vh;
+	background-color: #102C44;
+	margin-left: 2.5vw;
+	margin-right: 2.5vw;
+	margin-top: 5vw;
+	border-radius: 2vw;
+	color: #FFFFF0;
+	font-size: 5vw;
+}
