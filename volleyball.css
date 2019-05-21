@@ -267,14 +267,6 @@ span {
   color: white;
 }
 
-
-.return {
-    font-size: 2vh;
-    border: none;
-    background-color: #ffff;
-    color: blue;
-}
-
 #close{
 	min-width: 21.5vw;
 	min-height: 3vh;
