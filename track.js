@@ -990,3 +990,600 @@ else {
 }
 }
 
+var pppppp1;
+function pppppp2() {
+  pppppp1 = setInterval(pppppp3, 1000);
+  var c = 120;
+
+  function pppppp3() {
+    var min = Math.floor(c / 60);
+    var sec = c % 60;
+    n = zero(sec);
+    function zero(n) {
+if (n < 10) {
+  return n = "0" + n;
+}
+else {
+  return n = n;
+}
+}
+    document.getElementById("thirtynine").innerHTML = min + ":" + n;
+    --c;
+    if (c == 0) {
+      clearInterval(pppppp1);
+      document.getElementById("thirtynine").innerHTML = "0:00"
+  }
+}
+}
+
+var qqqqqq1;
+function qqqqqq2() {
+  qqqqqq1 = setInterval(qqqqqq3, 1000);
+  var c = 60;
+
+  function qqqqqq3() {
+    var min = Math.floor(c / 60);
+    var sec = c % 60;
+    n = zero(sec);
+    function zero(n) {
+if (n < 10) {
+  return n = "0" + n;
+}
+else {
+  return n = n;
+}
+}
+    document.getElementById("fourty").innerHTML = min + ":" + n;
+    --c;
+    if (c == 0) {
+      clearInterval(qqqqqq1);
+      document.getElementById("fourty").innerHTML = "0:00"
+  }
+}
+}
+
+var rrrrrr1;
+function rrrrrr2() {
+  rrrrrr1 = setInterval(rrrrrr3, 1000);
+  var c = 600;
+
+  function rrrrrr3() {
+    var min = Math.floor(c / 60);
+    var sec = c % 60;
+    n = zero(sec);
+    function zero(n) {
+if (n < 10) {
+  return n = "0" + n;
+}
+else {
+  return n = n;
+}
+}
+    document.getElementById("fourtyone").innerHTML = min + ":" + n;
+    --c;
+    if (c == 0) {
+      clearInterval(rrrrrr1);
+      document.getElementById("fourtyone").innerHTML = "0:00"
+  }
+}
+}
+
+var ssssss1;
+function ssssss2() {
+  ssssss1 = setInterval(ssssss3, 1000);
+  var c = 60;
+
+  function ssssss3() {
+    var min = Math.floor(c / 60);
+    var sec = c % 60;
+    n = zero(sec);
+    function zero(n) {
+if (n < 10) {
+  return n = "0" + n;
+}
+else {
+  return n = n;
+}
+}
+    document.getElementById("fourtytwo").innerHTML = min + ":" + n;
+    --c;
+    if (c == 0) {
+      clearInterval(ssssss1);
+      document.getElementById("fourtytwo").innerHTML = "0:00"
+  }
+}
+}
+
+var ppppppp1;
+function ppppppp2() {
+  ppppppp1 = setInterval(ppppppp3, 1000);
+  var c = 120;
+
+  function ppppppp3() {
+    var min = Math.floor(c / 60);
+    var sec = c % 60;
+    n = zero(sec);
+    function zero(n) {
+if (n < 10) {
+  return n = "0" + n;
+}
+else {
+  return n = n;
+}
+}
+    document.getElementById("fourtythree").innerHTML = min + ":" + n;
+    --c;
+    if (c == 0) {
+      clearInterval(ppppppp1);
+      document.getElementById("fourtythree").innerHTML = "0:00"
+  }
+}
+}
+
+var qqqqqqq1;
+function qqqqqqq2() {
+  qqqqqqq1 = setInterval(qqqqqqq3, 1000);
+  var c = 60;
+
+  function qqqqqqq3() {
+    var min = Math.floor(c / 60);
+    var sec = c % 60;
+    n = zero(sec);
+    function zero(n) {
+if (n < 10) {
+  return n = "0" + n;
+}
+else {
+  return n = n;
+}
+}
+    document.getElementById("fourtyfour").innerHTML = min + ":" + n;
+    --c;
+    if (c == 0) {
+      clearInterval(qqqqqqq1);
+      document.getElementById("fourtyfour").innerHTML = "0:00"
+  }
+}
+}
+
+var rrrrrrr1;
+function rrrrrrr2() {
+  rrrrrrr1 = setInterval(rrrrrrr3, 1000);
+  var c = 600;
+
+  function rrrrrrr3() {
+    var min = Math.floor(c / 60);
+    var sec = c % 60;
+    n = zero(sec);
+    function zero(n) {
+if (n < 10) {
+  return n = "0" + n;
+}
+else {
+  return n = n;
+}
+}
+    document.getElementById("fourtyfive").innerHTML = min + ":" + n;
+    --c;
+    if (c == 0) {
+      clearInterval(rrrrrrr1);
+      document.getElementById("fourtyfive").innerHTML = "0:00"
+  }
+}
+}
+
+var sssssss1;
+function sssssss2() {
+  sssssss1 = setInterval(sssssss3, 1000);
+  var c = 60;
+
+  function sssssss3() {
+    var min = Math.floor(c / 60);
+    var sec = c % 60;
+    n = zero(sec);
+    function zero(n) {
+if (n < 10) {
+  return n = "0" + n;
+}
+else {
+  return n = n;
+}
+}
+    document.getElementById("fourtysix").innerHTML = min + ":" + n;
+    --c;
+    if (c == 0) {
+      clearInterval(ssssss1);
+      document.getElementById("fourtysix").innerHTML = "0:00"
+  }
+}
+}
+
+var pppppppp1;
+function pppppppp2() {
+  pppppppp1 = setInterval(pppppppp3, 1000);
+  var c = 120;
+
+  function pppppppp3() {
+    var min = Math.floor(c / 60);
+    var sec = c % 60;
+    n = zero(sec);
+    function zero(n) {
+if (n < 10) {
+  return n = "0" + n;
+}
+else {
+  return n = n;
+}
+}
+    document.getElementById("fourtyseven").innerHTML = min + ":" + n;
+    --c;
+    if (c == 0) {
+      clearInterval(pppppppp1);
+      document.getElementById("fourtyseven").innerHTML = "0:00"
+  }
+}
+}
+
+var qqqqqqqq1;
+function qqqqqqqq2() {
+  qqqqqqqq1 = setInterval(qqqqqqqq3, 1000);
+  var c = 60;
+
+  function qqqqqqqq3() {
+    var min = Math.floor(c / 60);
+    var sec = c % 60;
+    n = zero(sec);
+    function zero(n) {
+if (n < 10) {
+  return n = "0" + n;
+}
+else {
+  return n = n;
+}
+}
+    document.getElementById("fourtyeight").innerHTML = min + ":" + n;
+    --c;
+    if (c == 0) {
+      clearInterval(qqqqqqqq1);
+      document.getElementById("fourtyeight").innerHTML = "0:00"
+  }
+}
+}
+
+var z1;
+function z2() {
+  z1 = setInterval(z3, 1000);
+  var c = 600;
+
+  function z3() {
+    var min = Math.floor(c / 60);
+    var sec = c % 60;
+    n = zero(sec);
+    function zero(n) {
+if (n < 10) {
+  return n = "0" + n;
+}
+else {
+  return n = n;
+}
+}
+    document.getElementById("fourtynine").innerHTML = min + ":" + n;
+    --c;
+    if (c == 0) {
+      clearInterval(z1);
+      document.getElementById("fourtynine").innerHTML = "0:00"
+  }
+}
+}
+
+var y1;
+function y2() {
+  y1 = setInterval(y3, 1000);
+  var c = 60;
+
+  function y3() {
+    var min = Math.floor(c / 60);
+    var sec = c % 60;
+    n = zero(sec);
+    function zero(n) {
+if (n < 10) {
+  return n = "0" + n;
+}
+else {
+  return n = n;
+}
+}
+    document.getElementById("fifty").innerHTML = min + ":" + n;
+    --c;
+    if (c == 0) {
+      clearInterval(y1);
+      document.getElementById("fifty").innerHTML = "0:00"
+  }
+}
+}
+
+var x1;
+function x2() {
+  x1 = setInterval(x3, 1000);
+  var c = 120;
+
+  function x3() {
+    var min = Math.floor(c / 60);
+    var sec = c % 60;
+    n = zero(sec);
+    function zero(n) {
+if (n < 10) {
+  return n = "0" + n;
+}
+else {
+  return n = n;
+}
+}
+    document.getElementById("fiftyone").innerHTML = min + ":" + n;
+    --c;
+    if (c == 0) {
+      clearInterval(x1);
+      document.getElementById("fiftyone").innerHTML = "0:00"
+  }
+}
+}
+
+var w1;
+function w2() {
+  w1 = setInterval(w3, 1000);
+  var c = 60;
+
+  function w3() {
+    var min = Math.floor(c / 60);
+    var sec = c % 60;
+    n = zero(sec);
+    function zero(n) {
+if (n < 10) {
+  return n = "0" + n;
+}
+else {
+  return n = n;
+}
+}
+    document.getElementById("fiftytwo").innerHTML = min + ":" + n;
+    --c;
+    if (c == 0) {
+      clearInterval(w1);
+      document.getElementById("fiftytwo").innerHTML = "0:00"
+  }
+}
+}
+
+var v1;
+function v2() {
+  v1 = setInterval(v3, 1000);
+  var c = 600;
+
+  function v3() {
+    var min = Math.floor(c / 60);
+    var sec = c % 60;
+    n = zero(sec);
+    function zero(n) {
+if (n < 10) {
+  return n = "0" + n;
+}
+else {
+  return n = n;
+}
+}
+    document.getElementById("fiftythree").innerHTML = min + ":" + n;
+    --c;
+    if (c == 0) {
+      clearInterval(v1);
+      document.getElementById("fiftythree").innerHTML = "0:00"
+  }
+}
+}
+
+var u1;
+function u2() {
+  u1 = setInterval(u3, 1000);
+  var c = 60;
+
+  function u3() {
+    var min = Math.floor(c / 60);
+    var sec = c % 60;
+    n = zero(sec);
+    function zero(n) {
+if (n < 10) {
+  return n = "0" + n;
+}
+else {
+  return n = n;
+}
+}
+    document.getElementById("fiftyfour").innerHTML = min + ":" + n;
+    --c;
+    if (c == 0) {
+      clearInterval(u1);
+      document.getElementById("fiftyfour").innerHTML = "0:00"
+  }
+}
+}
+
+var t1;
+function t2() {
+  t1 = setInterval(t3, 1000);
+  var c = 120;
+
+  function t3() {
+    var min = Math.floor(c / 60);
+    var sec = c % 60;
+    n = zero(sec);
+    function zero(n) {
+if (n < 10) {
+  return n = "0" + n;
+}
+else {
+  return n = n;
+}
+}
+    document.getElementById("fiftyfive").innerHTML = min + ":" + n;
+    --c;
+    if (c == 0) {
+      clearInterval(t1);
+      document.getElementById("fiftyfive").innerHTML = "0:00"
+  }
+}
+}
+
+var ll1;
+function ll2() {
+  ll1 = setInterval(ll3, 1000);
+  var c = 60;
+
+  function ll3() {
+    var min = Math.floor(c / 60);
+    var sec = c % 60;
+    n = zero(sec);
+    function zero(n) {
+if (n < 10) {
+  return n = "0" + n;
+}
+else {
+  return n = n;
+}
+}
+    document.getElementById("fiftysix").innerHTML = min + ":" + n;
+    --c;
+    if (c == 0) {
+      clearInterval(ll1);
+      document.getElementById("fiftysix").innerHTML = "0:00"
+  }
+}
+}
+
+var aa1;
+function aa2() {
+  aa1 = setInterval(aa3, 1000);
+  var c = 600;
+
+  function aa3() {
+    var min = Math.floor(c / 60);
+    var sec = c % 60;
+    n = zero(sec);
+    function zero(n) {
+if (n < 10) {
+  return n = "0" + n;
+}
+else {
+  return n = n;
+}
+}
+    document.getElementById("fiftyseven").innerHTML = min + ":" + n;
+    --c;
+    if (c == 0) {
+      clearInterval(aa1);
+      document.getElementById("fiftyseven").innerHTML = "0:00"
+  }
+}
+}
+
+var bb1;
+function bb2() {
+  bb1 = setInterval(bb3, 1000);
+  var c = 60;
+
+  function bb3() {
+    var min = Math.floor(c / 60);
+    var sec = c % 60;
+    n = zero(sec);
+    function zero(n) {
+if (n < 10) {
+  return n = "0" + n;
+}
+else {
+  return n = n;
+}
+}
+    document.getElementById("fiftyeight").innerHTML = min + ":" + n;
+    --c;
+    if (c == 0) {
+      clearInterval(bb1);
+      document.getElementById("fiftyeight").innerHTML = "0:00"
+  }
+}
+}
+
+var cc1;
+function cc2() {
+  cc1 = setInterval(cc3, 1000);
+  var c = 120;
+
+  function cc3() {
+    var min = Math.floor(c / 60);
+    var sec = c % 60;
+    n = zero(sec);
+    function zero(n) {
+if (n < 10) {
+  return n = "0" + n;
+}
+else {
+  return n = n;
+}
+}
+    document.getElementById("fiftynine").innerHTML = min + ":" + n;
+    --c;
+    if (c == 0) {
+      clearInterval(cc1);
+      document.getElementById("fiftynine").innerHTML = "0:00"
+  }
+}
+}
+
+var dd1;
+function dd2() {
+  dd1 = setInterval(dd3, 1000);
+  var c = 60;
+
+  function dd3() {
+    var min = Math.floor(c / 60);
+    var sec = c % 60;
+    n = zero(sec);
+    function zero(n) {
+if (n < 10) {
+  return n = "0" + n;
+}
+else {
+  return n = n;
+}
+}
+    document.getElementById("sixty").innerHTML = min + ":" + n;
+    --c;
+    if (c == 0) {
+      clearInterval(dd1);
+      document.getElementById("sixty").innerHTML = "0:00"
+  }
+}
+}
+
+var jog;
+function run() {
+  jog = setInterval(jump, 1000);
+  var c = 300;
+
+  function jump() {
+    var min = Math.floor(c / 60);
+    var sec = c % 60;
+    n = zero(sec);
+    function zero(n) {
+if (n < 10) {
+  return n = "0" + n;
+}
+else {
+  return n = n;
+}
+}
+    document.getElementById("sixtyone").innerHTML = min + ":" + n;
+    --c;
+    if (c == 0) {
+      clearInterval(jog);
+      document.getElementById("sixtyone").innerHTML = "0:00"
+  }
+}
+}
