@@ -5,7 +5,7 @@
   <title>Track and Field</title>
   <link rel="stylesheet" type="text/css" href="volleyball.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-  <script src="volleyball.js"></script>
+  <script src="track.js"></script>
 </head>
 <body>
   <div class="top-bar">
@@ -70,11 +70,11 @@
       </div>
       <div id="time">
         <div class="time0">
-          <h1 class="blue" id="5">10:00</h1>
+          <h1 class="blue" id="one">10:00</h1>
         </div>
         <br></br>
         <div class="time0">
-          <button onclick="clock(); document.getElementById('5').innerHTML='5:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
+          <button onclick="clock(); document.getElementById('one').innerHTML='10:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
           <button class="stopper" onclick="clearInterval(myTimer);">Stop</button>
         </div>
       </div>
@@ -86,12 +86,12 @@
       </div>
       <div id="time">
         <div class="time0">
-          <h1 class="blue" id="5">01:00</h1>
+          <h1 class="blue" id="two">1:00</h1>
         </div>
         <br></br>
         <div class="time0">
-          <button onclick="clock(); document.getElementById('5').innerHTML='5:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
-          <button class="stopper" onclick="clearInterval(myTimer);">Stop</button>
+          <button onclick="maybe(); document.getElementById('two').innerHTML='1:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
+          <button class="stopper" onclick="clearInterval(yes);">Stop</button>
         </div>
       </div>
             <div class="name">
@@ -117,12 +117,12 @@
       </div>
       <div id="time">
         <div class="time0">
-          <h1 class="blue" id="5">02:00</h1>
+          <h1 class="blue" id="three">2:00</h1>
         </div>
         <br></br>
         <div class="time0">
-          <button onclick="clock(); document.getElementById('5').innerHTML='5:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
-          <button class="stopper" onclick="clearInterval(myTimer);">Stop</button>
+          <button onclick="silly(); document.getElementById('three').innerHTML='2:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
+          <button class="stopper" onclick="clearInterval(funky);">Stop</button>
         </div>
       </div>
       <div class="name">
@@ -133,12 +133,12 @@
       </div>
       <div id="time">
         <div class="time0">
-          <h1 class="blue" id="5">01:00</h1>
+          <h1 class="blue" id="four">1:00</h1>
         </div>
         <br></br>
         <div class="time0">
-          <button onclick="clock(); document.getElementById('5').innerHTML='5:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
-          <button class="stopper" onclick="clearInterval(myTimer);">Stop</button>
+          <button onclick="a2(); document.getElementById('four').innerHTML='1:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
+          <button class="stopper" onclick="clearInterval(a1);">Stop</button>
         </div>
       </div>
       <div class="name">
@@ -163,12 +163,12 @@
       </div>
       <div id="time">
         <div class="time0">
-          <h1 class="blue" id="5">10:00</h1>
+          <h1 class="blue" id="five">10:00</h1>
         </div>
         <br></br>
         <div class="time0">
-          <button onclick="clock(); document.getElementById('5').innerHTML='5:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
-          <button class="stopper" onclick="clearInterval(myTimer);">Stop</button>
+          <button onclick="b2(); document.getElementById('five').innerHTML='10:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
+          <button class="stopper" onclick="clearInterval(b1);">Stop</button>
         </div>
       </div>
       <div class="name">
@@ -179,12 +179,12 @@
       </div>
       <div id="time">
         <div class="time0">
-          <h1 class="blue" id="5">01:00</h1>
+          <h1 class="blue" id="six">1:00</h1>
         </div>
         <br></br>
         <div class="time0">
-          <button onclick="clock(); document.getElementById('5').innerHTML='5:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
-          <button class="stopper" onclick="clearInterval(myTimer);">Stop</button>
+          <button onclick="c2(); document.getElementById('six').innerHTML='1:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
+          <button class="stopper" onclick="clearInterval(c1);">Stop</button>
         </div>
       </div>
             <div class="name">
@@ -210,12 +210,12 @@
       </div>
       <div id="time">
         <div class="time0">
-          <h1 class="blue" id="5">02:00</h1>
+          <h1 class="blue" id="seven">2:00</h1>
         </div>
         <br></br>
         <div class="time0">
-          <button onclick="clock(); document.getElementById('5').innerHTML='5:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
-          <button class="stopper" onclick="clearInterval(myTimer);">Stop</button>
+          <button onclick="d2(); document.getElementById('seven').innerHTML='2:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
+          <button class="stopper" onclick="clearInterval(d1);">Stop</button>
         </div>
       </div>
       <div class="name">
@@ -226,12 +226,12 @@
       </div>
       <div id="time">
         <div class="time0">
-          <h1 class="blue" id="5">01:00</h1>
+          <h1 class="blue" id="eight">1:00</h1>
         </div>
         <br></br>
         <div class="time0">
-          <button onclick="clock(); document.getElementById('5').innerHTML='5:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
-          <button class="stopper" onclick="clearInterval(myTimer);">Stop</button>
+          <button onclick="e2(); document.getElementById('eight').innerHTML='1:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
+          <button class="stopper" onclick="clearInterval(e1);">Stop</button>
         </div>
       </div>
       <div class="name">
@@ -257,12 +257,12 @@
       </div>
       <div id="time">
         <div class="time0">
-          <h1 class="blue" id="5">10:00</h1>
+          <h1 class="blue" id="nine">10:00</h1>
         </div>
         <br></br>
         <div class="time0">
-          <button onclick="clock(); document.getElementById('5').innerHTML='5:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
-          <button class="stopper" onclick="clearInterval(myTimer);">Stop</button>
+          <button onclick="f2(); document.getElementById('nine').innerHTML='10:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
+          <button class="stopper" onclick="clearInterval(f1);">Stop</button>
         </div>
       </div>
       <div class="name">
@@ -273,12 +273,12 @@
       </div>
       <div id="time">
         <div class="time0">
-          <h1 class="blue" id="5">01:00</h1>
+          <h1 class="blue" id="ten">1:00</h1>
         </div>
         <br></br>
         <div class="time0">
-          <button onclick="clock(); document.getElementById('5').innerHTML='5:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
-          <button class="stopper" onclick="clearInterval(myTimer);">Stop</button>
+          <button onclick="g2(); document.getElementById('ten').innerHTML='1:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
+          <button class="stopper" onclick="clearInterval(g1);">Stop</button>
         </div>
       </div>
             <div class="name">
@@ -303,12 +303,12 @@
       </div>
       <div id="time">
         <div class="time0">
-          <h1 class="blue" id="5">02:00</h1>
+          <h1 class="blue" id="eleven">2:00</h1>
         </div>
         <br></br>
         <div class="time0">
-          <button onclick="clock(); document.getElementById('5').innerHTML='5:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
-          <button class="stopper" onclick="clearInterval(myTimer);">Stop</button>
+          <button onclick="h2(); document.getElementById('eleven').innerHTML='2:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
+          <button class="stopper" onclick="clearInterval(h1);">Stop</button>
         </div>
       </div>
       <div class="name">
@@ -319,12 +319,12 @@
       </div>
       <div id="time">
         <div class="time0">
-          <h1 class="blue" id="5">01:00</h1>
+          <h1 class="blue" id="twelve">1:00</h1>
         </div>
         <br></br>
         <div class="time0">
-          <button onclick="clock(); document.getElementById('5').innerHTML='5:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
-          <button class="stopper" onclick="clearInterval(myTimer);">Stop</button>
+          <button onclick="i2(); document.getElementById('twelve').innerHTML='1:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
+          <button class="stopper" onclick="clearInterval(i1);">Stop</button>
         </div>
       </div>
       <div class="name">
@@ -350,12 +350,12 @@
       </div>
       <div id="time">
         <div class="time0">
-          <h1 class="blue" id="5">10:00</h1>
+          <h1 class="blue" id="thirteen">10:00</h1>
         </div>
         <br></br>
         <div class="time0">
-          <button onclick="clock(); document.getElementById('5').innerHTML='5:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
-          <button class="stopper" onclick="clearInterval(myTimer);">Stop</button>
+          <button onclick="j2(); document.getElementById('thirteen').innerHTML='10:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
+          <button class="stopper" onclick="clearInterval(j1);">Stop</button>
         </div>
       </div>
       <div class="name">
@@ -366,12 +366,12 @@
       </div>
       <div id="time">
         <div class="time0">
-          <h1 class="blue" id="5">01:00</h1>
+          <h1 class="blue" id="fourteen">1:00</h1>
         </div>
         <br></br>
         <div class="time0">
-          <button onclick="clock(); document.getElementById('5').innerHTML='5:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
-          <button class="stopper" onclick="clearInterval(myTimer);">Stop</button>
+          <button onclick="k2(); document.getElementById('fourteen').innerHTML='1:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
+          <button class="stopper" onclick="clearInterval(k1);">Stop</button>
         </div>
       </div>
             <div class="name">
@@ -397,12 +397,12 @@
       </div>
       <div id="time">
         <div class="time0">
-          <h1 class="blue" id="5">02:00</h1>
+          <h1 class="blue" id="fifteen">2:00</h1>
         </div>
         <br></br>
         <div class="time0">
-          <button onclick="clock(); document.getElementById('5').innerHTML='5:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
-          <button class="stopper" onclick="clearInterval(myTimer);">Stop</button>
+          <button onclick="l2(); document.getElementById('fifteen').innerHTML='2:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
+          <button class="stopper" onclick="clearInterval(l1);">Stop</button>
         </div>
       </div>
       <div class="name">
@@ -413,12 +413,12 @@
       </div>
       <div id="time">
         <div class="time0">
-          <h1 class="blue" id="5">01:00</h1>
+          <h1 class="blue" id="sixteen">1:00</h1>
         </div>
         <br></br>
         <div class="time0">
-          <button onclick="clock(); document.getElementById('5').innerHTML='5:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
-          <button class="stopper" onclick="clearInterval(myTimer);">Stop</button>
+          <button onclick="m2(); document.getElementById('sixteen').innerHTML='1:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
+          <button class="stopper" onclick="clearInterval(m1);">Stop</button>
         </div>
       </div>
       <div class="name">
@@ -444,12 +444,12 @@
       </div>
       <div id="time">
         <div class="time0">
-          <h1 class="blue" id="5">10:00</h1>
+          <h1 class="blue" id="seventeen">10:00</h1>
         </div>
         <br></br>
         <div class="time0">
-          <button onclick="clock(); document.getElementById('5').innerHTML='5:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
-          <button class="stopper" onclick="clearInterval(myTimer);">Stop</button>
+          <button onclick="n2(); document.getElementById('seventeen').innerHTML='10:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
+          <button class="stopper" onclick="clearInterval(n1);">Stop</button>
         </div>
       </div>
       <div class="name">
@@ -460,12 +460,12 @@
       </div>
       <div id="time">
         <div class="time0">
-          <h1 class="blue" id="5">01:00</h1>
+          <h1 class="blue" id="eighteen">1:00</h1>
         </div>
         <br></br>
         <div class="time0">
-          <button onclick="clock(); document.getElementById('5').innerHTML='5:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
-          <button class="stopper" onclick="clearInterval(myTimer);">Stop</button>
+          <button onclick="o2(); document.getElementById('eighteen').innerHTML='1:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
+          <button class="stopper" onclick="clearInterval(o1);">Stop</button>
         </div>
       </div>
             <div class="name">
@@ -491,12 +491,12 @@
       </div>
       <div id="time">
         <div class="time0">
-          <h1 class="blue" id="5">02:00</h1>
+          <h1 class="blue" id="nineteen">2:00</h1>
         </div>
         <br></br>
         <div class="time0">
-          <button onclick="clock(); document.getElementById('5').innerHTML='5:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
-          <button class="stopper" onclick="clearInterval(myTimer);">Stop</button>
+          <button onclick="p2(); document.getElementById('nineteen').innerHTML='2:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
+          <button class="stopper" onclick="clearInterval(p1);">Stop</button>
         </div>
       </div>
       <div class="name">
@@ -507,12 +507,12 @@
       </div>
       <div id="time">
         <div class="time0">
-          <h1 class="blue" id="5">01:00</h1>
+          <h1 class="blue" id="twenty">1:00</h1>
         </div>
         <br></br>
         <div class="time0">
-          <button onclick="clock(); document.getElementById('5').innerHTML='5:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
-          <button class="stopper" onclick="clearInterval(myTimer);">Stop</button>
+          <button onclick="q2(); document.getElementById('twenty').innerHTML='1:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
+          <button class="stopper" onclick="clearInterval(q1);">Stop</button>
         </div>
       </div>
       <div class="name">
@@ -538,12 +538,12 @@
       </div>
       <div id="time">
         <div class="time0">
-          <h1 class="blue" id="5">10:00</h1>
+          <h1 class="blue" id="twentyone">10:00</h1>
         </div>
         <br></br>
         <div class="time0">
-          <button onclick="clock(); document.getElementById('5').innerHTML='5:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
-          <button class="stopper" onclick="clearInterval(myTimer);">Stop</button>
+          <button onclick="r2(); document.getElementById('twentyone').innerHTML='10:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
+          <button class="stopper" onclick="clearInterval(r1);">Stop</button>
         </div>
       </div>
       <div class="name">
@@ -554,12 +554,12 @@
       </div>
       <div id="time">
         <div class="time0">
-          <h1 class="blue" id="5">01:00</h1>
+          <h1 class="blue" id="twentytwo">1:00</h1>
         </div>
         <br></br>
         <div class="time0">
-          <button onclick="clock(); document.getElementById('5').innerHTML='5:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
-          <button class="stopper" onclick="clearInterval(myTimer);">Stop</button>
+          <button onclick="s2(); document.getElementById('twentytwo').innerHTML='1:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
+          <button class="stopper" onclick="clearInterval(s1);">Stop</button>
         </div>
       </div>
             <div class="name">
@@ -585,12 +585,12 @@
       </div>
       <div id="time">
         <div class="time0">
-          <h1 class="blue" id="5">02:00</h1>
+          <h1 class="blue" id="twentythree">2:00</h1>
         </div>
         <br></br>
         <div class="time0">
-          <button onclick="clock(); document.getElementById('5').innerHTML='5:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
-          <button class="stopper" onclick="clearInterval(myTimer);">Stop</button>
+          <button onclick="pp2(); document.getElementById('twentythree').innerHTML='2:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
+          <button class="stopper" onclick="clearInterval(pp1);">Stop</button>
         </div>
       </div>
       <div class="name">
@@ -601,12 +601,12 @@
       </div>
       <div id="time">
         <div class="time0">
-          <h1 class="blue" id="5">01:00</h1>
+          <h1 class="blue" id="twentyfour">1:00</h1>
         </div>
         <br></br>
         <div class="time0">
-          <button onclick="clock(); document.getElementById('5').innerHTML='5:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
-          <button class="stopper" onclick="clearInterval(myTimer);">Stop</button>
+          <button onclick="qq2(); document.getElementById('twentyfour').innerHTML='1:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
+          <button class="stopper" onclick="clearInterval(qq1);">Stop</button>
         </div>
       </div>
       <div class="name">
@@ -632,12 +632,12 @@
       </div>
       <div id="time">
         <div class="time0">
-          <h1 class="blue" id="5">10:00</h1>
+          <h1 class="blue" id="twentyfive">10:00</h1>
         </div>
         <br></br>
         <div class="time0">
-          <button onclick="clock(); document.getElementById('5').innerHTML='5:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
-          <button class="stopper" onclick="clearInterval(myTimer);">Stop</button>
+          <button onclick="rr2(); document.getElementById('twentyfive').innerHTML='10:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
+          <button class="stopper" onclick="clearInterval(rr1);">Stop</button>
         </div>
       </div>
       <div class="name">
@@ -648,12 +648,12 @@
       </div>
       <div id="time">
         <div class="time0">
-          <h1 class="blue" id="5">01:00</h1>
+          <h1 class="blue" id="twentysix">1:00</h1>
         </div>
         <br></br>
         <div class="time0">
-          <button onclick="clock(); document.getElementById('5').innerHTML='5:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
-          <button class="stopper" onclick="clearInterval(myTimer);">Stop</button>
+          <button onclick="ss2(); document.getElementById('twentysix').innerHTML='1:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
+          <button class="stopper" onclick="clearInterval(ss1);">Stop</button>
         </div>
       </div>
             <div class="name">
@@ -679,12 +679,12 @@
       </div>
       <div id="time">
         <div class="time0">
-          <h1 class="blue" id="5">02:00</h1>
+          <h1 class="blue" id="twentyseven">2:00</h1>
         </div>
         <br></br>
         <div class="time0">
-          <button onclick="clock(); document.getElementById('5').innerHTML='5:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
-          <button class="stopper" onclick="clearInterval(myTimer);">Stop</button>
+          <button onclick="ppp2(); document.getElementById('twentyseven').innerHTML='2:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
+          <button class="stopper" onclick="clearInterval(ppp1);">Stop</button>
         </div>
       </div>
       <div class="name">
@@ -695,12 +695,12 @@
       </div>
       <div id="time">
         <div class="time0">
-          <h1 class="blue" id="5">01:00</h1>
+          <h1 class="blue" id="twentyeight">1:00</h1>
         </div>
         <br></br>
         <div class="time0">
-          <button onclick="clock(); document.getElementById('5').innerHTML='5:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
-          <button class="stopper" onclick="clearInterval(myTimer);">Stop</button>
+          <button onclick="qqq2(); document.getElementById('twentyeight').innerHTML='1:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
+          <button class="stopper" onclick="clearInterval(qqq1);">Stop</button>
         </div>
       </div>
       <div class="name">
@@ -726,12 +726,12 @@
       </div>
       <div id="time">
         <div class="time0">
-          <h1 class="blue" id="5">10:00</h1>
+          <h1 class="blue" id="twentynine">10:00</h1>
         </div>
         <br></br>
         <div class="time0">
-          <button onclick="clock(); document.getElementById('5').innerHTML='5:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
-          <button class="stopper" onclick="clearInterval(myTimer);">Stop</button>
+          <button onclick="rrr2(); document.getElementById('twentynine').innerHTML='10:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
+          <button class="stopper" onclick="clearInterval(rrr1);">Stop</button>
         </div>
       </div>
       <div class="name">
@@ -742,12 +742,12 @@
       </div>
       <div id="time">
         <div class="time0">
-          <h1 class="blue" id="5">01:00</h1>
+          <h1 class="blue" id="thirty">1:00</h1>
         </div>
         <br></br>
         <div class="time0">
-          <button onclick="clock(); document.getElementById('5').innerHTML='5:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
-          <button class="stopper" onclick="clearInterval(myTimer);">Stop</button>
+          <button onclick="sss2(); document.getElementById('thirty').innerHTML='1:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
+          <button class="stopper" onclick="clearInterval(sss1);">Stop</button>
         </div>
       </div>
             <div class="name">
@@ -773,12 +773,12 @@
       </div>
       <div id="time">
         <div class="time0">
-          <h1 class="blue" id="5">02:00</h1>
+          <h1 class="blue" id="thirtyone">2:00</h1>
         </div>
         <br></br>
         <div class="time0">
-          <button onclick="clock(); document.getElementById('5').innerHTML='5:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
-          <button class="stopper" onclick="clearInterval(myTimer);">Stop</button>
+          <button onclick="pppp2(); document.getElementById('thirtyone').innerHTML='2:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
+          <button class="stopper" onclick="clearInterval(pppp1);">Stop</button>
         </div>
       </div>
       <div class="name">
@@ -789,12 +789,12 @@
       </div>
       <div id="time">
         <div class="time0">
-          <h1 class="blue" id="5">01:00</h1>
+          <h1 class="blue" id="thirtytwo">1:00</h1>
         </div>
         <br></br>
         <div class="time0">
-          <button onclick="clock(); document.getElementById('5').innerHTML='5:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
-          <button class="stopper" onclick="clearInterval(myTimer);">Stop</button>
+          <button onclick="qqqq2(); document.getElementById('thirtytwo').innerHTML='1:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
+          <button class="stopper" onclick="clearInterval(qqqq1);">Stop</button>
         </div>
       </div>
       <div class="name">
@@ -820,12 +820,12 @@
       </div>
       <div id="time">
         <div class="time0">
-          <h1 class="blue" id="5">10:00</h1>
+          <h1 class="blue" id="thirtythree">10:00</h1>
         </div>
         <br></br>
         <div class="time0">
-          <button onclick="clock(); document.getElementById('5').innerHTML='5:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
-          <button class="stopper" onclick="clearInterval(myTimer);">Stop</button>
+          <button onclick="rrrr2(); document.getElementById('thirtythree').innerHTML='10:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
+          <button class="stopper" onclick="clearInterval(rrrr1);">Stop</button>
         </div>
       </div>
       <div class="name">
@@ -836,12 +836,12 @@
       </div>
       <div id="time">
         <div class="time0">
-          <h1 class="blue" id="5">01:00</h1>
+          <h1 class="blue" id="thirtyfour">1:00</h1>
         </div>
         <br></br>
         <div class="time0">
-          <button onclick="clock(); document.getElementById('5').innerHTML='5:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
-          <button class="stopper" onclick="clearInterval(myTimer);">Stop</button>
+          <button onclick="ssss2(); document.getElementById('thirtyfour').innerHTML='1:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
+          <button class="stopper" onclick="clearInterval(ssss1);">Stop</button>
         </div>
       </div>
             <div class="name">
@@ -867,12 +867,12 @@
       </div>
       <div id="time">
         <div class="time0">
-          <h1 class="blue" id="5">02:00</h1>
+          <h1 class="blue" id="thirtyfive">2:00</h1>
         </div>
         <br></br>
         <div class="time0">
-          <button onclick="clock(); document.getElementById('5').innerHTML='5:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
-          <button class="stopper" onclick="clearInterval(myTimer);">Stop</button>
+          <button onclick="ppppp2(); document.getElementById('thirtyfive').innerHTML='2:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
+          <button class="stopper" onclick="clearInterval(ppppp1);">Stop</button>
         </div>
       </div>
       <div class="name">
@@ -883,12 +883,12 @@
       </div>
       <div id="time">
         <div class="time0">
-          <h1 class="blue" id="5">01:00</h1>
+          <h1 class="blue" id="thirtysix">1:00</h1>
         </div>
         <br></br>
         <div class="time0">
-          <button onclick="clock(); document.getElementById('5').innerHTML='5:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
-          <button class="stopper" onclick="clearInterval(myTimer);">Stop</button>
+          <button onclick="qqqqq2(); document.getElementById('thirtysix').innerHTML='1:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
+          <button class="stopper" onclick="clearInterval(qqqqq1);">Stop</button>
         </div>
       </div>
       <div class="name">
@@ -914,12 +914,12 @@
       </div>
       <div id="time">
         <div class="time0">
-          <h1 class="blue" id="5">10:00</h1>
+          <h1 class="blue" id="thirtyseven">10:00</h1>
         </div>
         <br></br>
         <div class="time0">
-          <button onclick="clock(); document.getElementById('5').innerHTML='5:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
-          <button class="stopper" onclick="clearInterval(myTimer);">Stop</button>
+          <button onclick="rrrrr2(); document.getElementById('thirtyseven').innerHTML='10:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
+          <button class="stopper" onclick="clearInterval(rrrrr1);">Stop</button>
         </div>
       </div>
       <div class="name">
@@ -930,12 +930,12 @@
       </div>
       <div id="time">
         <div class="time0">
-          <h1 class="blue" id="5">01:00</h1>
+          <h1 class="blue" id="thirtyeight">1:00</h1>
         </div>
         <br></br>
         <div class="time0">
-          <button onclick="clock(); document.getElementById('5').innerHTML='5:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
-          <button class="stopper" onclick="clearInterval(myTimer);">Stop</button>
+          <button onclick="sssss2(); document.getElementById('thirtyeight').innerHTML='1:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
+          <button class="stopper" onclick="clearInterval(sssss1);">Stop</button>
         </div>
       </div>
             <div class="name">
