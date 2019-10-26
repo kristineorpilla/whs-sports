@@ -5,7 +5,7 @@ html, body{
 }
 
 h1{
-   font-size: 5vh;
+   font-size: 4.3vh;
    font-family: Arial;
    font-weight: bold;
    text-align: center;
@@ -83,10 +83,6 @@ h2{
    text-align: center;
    margin-left: 12%;
    margin-top: 5%;
-}
-
-.choosing {
-    margin: 4.5% 1.5%;
 }
 
 .v-logo {
