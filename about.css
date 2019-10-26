@@ -14,7 +14,7 @@ html, body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
-  font-size: 6.5vw;
+  font-size: 10vw;
   height: 3.5vh;
   margin-left: 23vw;
 }
@@ -49,7 +49,7 @@ height: 5vh;
  text-align: center;
  margin-top: 3vh;
  margin-bottom: 5vw;
- font-size: 6vw;
+ font-size: 4vh;
  margin-left: 5vh;
 }
 
@@ -111,7 +111,9 @@ border: 15px;
 }
 
 .schedule-pic {
- margin-left: 2%;
+  width: 200%;
+  height: 500%;
+  margin-left: 5vh;
 }
 
 .checky {
@@ -123,5 +125,5 @@ border: 15px;
 .container {
  margin-left: 10%;
  width: 80%;
- font-size: 50px;
+ font-size: 3vh;
 }
